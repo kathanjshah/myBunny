@@ -1,0 +1,173 @@
+
+body{
+    font-family: Georgia;
+    background-color: Black;
+    color: black;
+    background-image: url("images/repeat1.jpg"); 
+    
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    font-size: 20;
+}
+
+.header{
+    text-align: center;
+}
+.menu-bar{
+    
+    text-align: start ;
+    background:transparent;
+    border-bottom: 2px solid white;
+    width: 100%;
+    
+}
+
+
+.menu-bar button{
+    display: inline;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 30;
+    background-color: transparent;
+    color: black;
+    text-decoration: none;
+    padding: 10px 20px;
+    
+    background: transparent;
+    box-shadow: 0px 0px 0px transparent;
+    border: 0px solid transparent;
+    text-shadow: 0px 0px 0px transparent;
+    
+    
+}
+.menu-bar button:hover{
+    background: white;
+    color: gray;
+}
+.menu-bar button.iconofme:hover{
+    background: grey;
+    color:gray;  
+}
+
+.menu-bar button.dropdown{
+    position: relative;
+    display: inline-block;
+}
+.menu-bar .dropdown-content{
+    margin-left: 100px;
+    display: none;
+    position: absolute;
+    background-color: white;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+}
+.menu-bar .dropdown-content a{
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+}
+.menu-bar .dropdown-content a:hover{
+    background-color: gray;
+}
+.menu-bar .show{
+    display: block;
+}
+.Resume{
+    text-align: center;
+}
+.Resume .resumeButton{
+    background-color: black;
+    color: white;
+    display: inline;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15;
+    color: black;
+    text-decoration: none;
+    padding: 10px 20px;
+    box-shadow: 0px 0px 0px transparent;
+    border-radius: 20px;
+    text-shadow: 0px 0px 0px transparent;
+    text-align: center;
+}
+.richoDis{
+    text-align: left;
+    margin-top: 50px;
+    font-size: 20px;
+}
+
+.richoDis button{
+    background-color: black;
+    color: black;
+    display: inline;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15;
+    color: black;
+    text-decoration: none;
+    padding: 10px 20px;
+    
+    border-radius: 20px;
+    text-shadow: 0px 0px 0px transparent;
+}
+.sudoko button{
+    background-color: black;
+    color: black;
+    display: inline;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15;
+    color: black;
+    text-decoration: none;
+    padding: 10px 20px;
+    
+    border-radius: 20px;
+    text-shadow: 0px 0px 0px transparent;
+}
+.sudoD{
+    font-size:20px;
+
+}
+.sudopic{
+    text-align: left;
+    margin-top: 100px;
+}
+.schoolCourses{
+    font-family: Arial, Helvetica, sans-serif;
+    color: black;
+    text-align: center;
+   
+}
+.about-me{
+    font-size: 25px;
+}
+.schoolCourses div{
+    font-family: Arial, Helvetica, sans-serif;
+    color: black;
+    text-align: center;
+    font-size: 20px;
+    padding: 1%;
+}
+
+.wrapper div:hover{
+    text-align: center;
+    color: black;
+    background-color: #659DBD;
+    border-radius: 10px;
+
+    font-size: 21px;
+}
+.wrapper {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    background-color: #659DBD;
+    border-radius: 10px;
+    grid-gap: 10px;
+}
+.won{
+
+}
+
+
+
+
+

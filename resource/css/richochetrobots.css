@@ -1,0 +1,73 @@
+
+body{
+    font-family: Georgia;
+    background-color: Black;
+    color: White;
+    background-image: url("images/repeat.jpg"); 
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+}
+.header{
+    text-align: center;
+}
+.menu-bar{
+    
+    text-align: start ;
+    background:transparent;
+    border-bottom: 2px solid white;
+    width: 100%;
+    
+}
+
+
+.menu-bar button{
+    display: inline;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 30;
+    background-color: transparent;
+    color: white;
+    text-decoration: none;
+    padding: 10px 20px;
+    
+    background: transparent;
+    box-shadow: 0px 0px 0px transparent;
+    border: 0px solid transparent;
+    text-shadow: 0px 0px 0px transparent;
+    
+    
+}
+.menu-bar button:hover{
+    background: white;
+    color: black;
+}
+.menu-bar button.iconofme:hover{
+    background: grey;
+    color:white;  
+}
+
+.menu-bar button.dropdown{
+    position: relative;
+    display: inline-block;
+}
+.menu-bar .dropdown-content{
+    margin-left: 215px;
+    display: none;
+    position: absolute;
+    background-color: white;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+}
+.menu-bar .dropdown-content a{
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+}
+.menu-bar .dropdown-content a:hover{
+    background-color: gray;
+}
+.menu-bar .show{
+    display: block;
+}
